@@ -47,4 +47,9 @@
             <?php
         }
     }
+    else { 
+        ?>
+        <tr><td colspan="7"><h5>No Data Found</h5></td></tr>
+    <?php 
+    }
 ?>
