@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+/* CREATE AND EDIT FORM */
+.modal-header-title{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 5px 15px;
+}
+
+.modal-title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #343a40;
+}
+
+.modal-p1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #343a40;
+    margin: 0px;
+}
+
+.add-icon{
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+    background-color: #f5e5e0;
+    border: 1px solid #ce593c1d;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.input-form{
+    width: 100%;
+    border: 1px solid #ced4da;
+    padding: 5px 0px;
+    border-radius: 5px;
+    text-indent: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    transition: 0.3s ;
+    color: #343a40;
+}
+
+.input-form:focus{
+    border: 1px solid #ce593c42;
+    outline: none;
+    box-shadow: rgb(206, 89, 60,0.35) 0px 0px 0px 3px;
+}
+
+.password-icon{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.no{
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    color: #343a409f;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-btn, .form-create-submit-btn{
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.3s ease-out;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    color: #4c545c;
+    width: 100%;
+}
+
+.close-btn:hover{
+    background-color: #f8f9fa;
+}
+
+.form-create-submit-btn{
+    background-color: #e76f51;
+    border: 1px solid #e76f51;
+    color: white;
+}
+
+.form-create-submit-btn:hover{
+    background-color: #ce593c;
+}
+
+/* DELETE FORM  */
+.modal-body{
+    padding: 30px;
+}
+
+.form-delete-h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.form-delete-p1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: rgb(86, 86, 86);
+}
+
+.form-delete-btn-group{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin: 25px 0px 0px;
+}
+
+.form-delete-cancel-btn{
+    border: 0px;
+    color: rgb(86, 86, 86);
+    background-color: transparent;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.3s ease-out;
+}
+
+.form-delete-cancel-btn:hover{
+    color:black;
+}
+
+.form-delete-submit-btn{
+    background-color: #e76f51;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.3s ease-out;
+}
+
+.form-delete-submit-btn:hover{
+    background-color: #ce593c;
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-box {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 150px;
+    background-color: #fdf8f6;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    color: #343a40;
+}
+
+.create-button {
+    background-color: #e76f51;
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    transition: 0.3s ease-out;
+}
+
+.create-button:hover {
+    background-color: #ce593c;
+}
+
+table {
+    margin: 20px 0px;
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+
+th {
+    padding: 10px 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: #343a40;
+}
+
+th:first-child {
+    border-radius: 10px 0px 0px;
+}
+
+th:last-child {
+    border-radius: 0px 10px 0px 0px;
+}
+
+.thead {
+    background-color: #e76f514d;
+}
+
+td {
+    padding: 12px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #343a40;
+}
+
+.edit-btn,
+.delete-btn {
+    background-image: url("../resources/icons/delete-icon.png");
+    background-position: center;
+    background-size: 17px;
+    background-repeat: no-repeat;
+    border: 0px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+    padding: 17px;
+}
+
+.edit-btn {
+    background-image: url("../resources/icons/edit-icon.png");
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    background-color: #f5e5e0;
+}
+
+.btn {
+    border: 0px;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px 0px;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+}
