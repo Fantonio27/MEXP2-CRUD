@@ -49,7 +49,7 @@
     }
     else { 
         ?>
-        <tr><td colspan="7"><h5>No Data Found</h5></td></tr>
+        <tr><td colspan="12"><h5>No Data Found</h5></td></tr>
     <?php 
     }
 ?>

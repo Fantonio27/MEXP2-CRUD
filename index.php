@@ -1,5 +1,5 @@
 <?php
-    include './crud/db.php';
+include './crud/db.php';
 ?>
 
 <!DOCTYPE html>
@@ -16,44 +16,47 @@
 </head>
 
 <body>
-    <div class="container-box">
-        <nav class="navbar">
-            <h2 class="title">Dashboard</h2>
-            <button type="button" class="create-button" onclick="GetId(0, 0)" name="createbtn" data-bs-toggle="modal"
-                data-bs-target="#editmodal">
-                + Create
-            </button>
-        </nav>
+    <center>
+        <div class="container-box ">
+            <nav class="navbar">
+                <h2 class="title">User Table</h2>
+                <button type="button" class="create-button" onclick="GetId(0, 0)" name="createbtn"
+                    data-bs-toggle="modal" data-bs-target="#editmodal">
+                    + Create
+                </button>
+            </nav>
 
-        <div class="container-table">
-            <table>
-                <thead class="thead">
-                    <th scope="col">&nbsp;&nbsp;id&nbsp;</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Password</th>
-                    <th scope="col">Address</th>
-                    <th scope="col">Date Created</th>
-                    <th scope="col">Date Modified</th>
-                    <th scope="col">Actions</th>
-                </thead>
-                <tbody>
-                    <?php
-                    include './crud/read.php';
-                    ?>
-                </tbody>
-            </table>
+            <div>
+                <table>
+                    <thead class="thead">
+                        <th scope="col">&nbsp;&nbsp;id&nbsp;</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Password</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Date Created</th>
+                        <th scope="col">Date Modified</th>
+                        <th scope="col">Actions</th>
+                    </thead>
+                    <tbody>
+                        <?php
+                        include './crud/read.php';
+                        ?>
+                    </tbody>
+                </table>
+            </div>
+
+            <?php
+                include './modals.php';
+            ?>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
+
+            <script src="./script/index.js"></script>
         </div>
-
-        <?php
-            include './modals.php';
-        ?>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
-
-        <script src="./script/index.js"></script>
+    </center>
 </body>
 
 </html>

@@ -5,11 +5,15 @@
     padding: 0px;
 }
 
-.container-box {
-    width: 100%;
-    height: 100vh;
-    padding: 100px 150px;
+body {
     background-color: #fdf8f6;
+}
+
+.container-box {
+    width: 80%;
+    height: 100vh;
+    padding: 100px 0px;
+    /* padding: 100px 150px; */
 }
 
 .navbar {
@@ -69,10 +73,11 @@ th:last-child {
 }
 
 td {
-    padding: 12px 0px;
+    padding: 12px 5px;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #343a40;
+    text-align: center;
 }
 
 .edit-btn,
@@ -106,4 +111,48 @@ td {
 
 .btn:hover {
     background-color: whitesmoke;
+}
+
+@media only screen and (max-width : 1700px) {
+
+    .container-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width : 1500px) {
+
+    .container-box {
+        width: 95%;
+    }
+
+    td {
+        padding: 12px 10px;
+    }
+}
+
+@media only screen and (max-width : 1020px) {
+
+    td:nth-child(6),
+    td:nth-child(7) {
+        display: none;
+    }
+
+    th:nth-child(6),
+    th:nth-child(7) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+
+    td:nth-child(4),
+    td:nth-child(5) {
+        display: none;
+    }
+
+    th:nth-child(4),
+    th:nth-child(5) {
+        display: none;
+    }
 }
