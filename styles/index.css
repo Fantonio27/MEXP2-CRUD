@@ -84,13 +84,13 @@ td {
 .delete-btn {
     background-image: url("../resources/icons/delete-icon.png");
     background-position: center;
-    background-size: 17px;
+    background-size: 16px;
     background-repeat: no-repeat;
     border: 0px;
     background-color: white;
     border-radius: 10px;
     transition: 0.3s;
-    padding: 17px;
+    padding: 15px;
 }
 
 .edit-btn {
@@ -114,14 +114,12 @@ td {
 }
 
 @media only screen and (max-width : 1700px) {
-
     .container-box {
         width: 90%;
     }
 }
 
 @media only screen and (max-width : 1500px) {
-
     .container-box {
         width: 95%;
     }
@@ -132,7 +130,6 @@ td {
 }
 
 @media only screen and (max-width : 1020px) {
-
     td:nth-child(6),
     td:nth-child(7) {
         display: none;
@@ -145,7 +142,6 @@ td {
 }
 
 @media only screen and (max-width : 800px) {
-
     td:nth-child(4),
     td:nth-child(5) {
         display: none;
