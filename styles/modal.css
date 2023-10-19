@@ -46,9 +46,8 @@ label{
 .input-form{
     width: 100%;
     border: 1px solid #ced4da;
-    padding: 5px 0px;
+    padding: 5px 10px;
     border-radius: 5px;
-    text-indent: 10px;
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
     transition: 0.3s ;
